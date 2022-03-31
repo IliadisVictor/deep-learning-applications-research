@@ -1,20 +1,12 @@
-TensorFlow
-Keras
-Apache MXNet
-Theano
-Caffe
-fast.ai
-CNTK
-Lasagne
-Apache Spark
-Microsoft Cognitive Toolkit (Previously CNTK)
-
-
-
-Brain.js
+tensorflow
+keras
+incubator-mxnet
+theano
+caffe
+fastai
+brain.js
 synaptic
-TensorFlow.js
-mind
-Keras.JS
+tfjs
+keras-js
 convnetjs
 neataptic
