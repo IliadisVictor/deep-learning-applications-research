@@ -13,13 +13,13 @@ why Github , opposed to other available options.
 The primary selection criteria for the selected repositories will be their use of major deep learning libraries , the selection of said libraries is going to be executed as follows.
 The original list will be obtained through keyword searching 
 and then filtered by the following criteria 
-* Search Strings : Keywords used in search engines to amass the initial batch . 
 * Inclusion Criteria
   * Project Popularity 
   * More than 5 years of ongoing project life
 * Exclusion Criteria 
   * No longer actively maintained  
-
+Also include:
+* Search Strings : Keywords used in search engines to amass the initial batch . 
 ### 2.3 Repositories Search Strategy 
 * Selection Timing :
 The date of the extraction of data can heavily effect the return repositories , and must be noted.
@@ -32,8 +32,6 @@ The date of the extraction of data can heavily effect the return repositories , 
   * Natural Language not English . 
   * Contributing Team Smaller than 3 
   * Last Commit More than a year .  
-* Procedure:
-Filter and pseudo randomize. 
 
 ### 2.3.1 Perils Faced Mining Github 
 https://link.springer.com/article/10.1007/s10664-015-9393-5 
