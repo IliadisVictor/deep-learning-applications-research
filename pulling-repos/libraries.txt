@@ -1,12 +1,6 @@
-tensorflow
-keras - dependents not found
-incubator-mxnet
-theano
-caffe - dependents not found
-fastai - dependents not found
-brain.js
-synaptic
-tfjs
-keras-js
-convnetjs not depenents found
-neataptic
+Tensorflow
+Keras
+MXNET
+fast.ai
+Brain.js
+Pytorch
