@@ -1,7 +1,7 @@
 ## Library Selection
 ### Initial Batch Collected
 Through keyword searching from combinations of the strings `deep learning,frameworks,libraries,major,top,2022`
-on google search engine , and Github search engine following the tag `deep learning`.
+on google search engine , and Github search engine following the tag `deep learning` , we collected the following initial batch of deep learning libraries
 | Library Name   | Initial Release | Actively Developed | Open Source |Popularity (Github Stars)|
 |----------------|-----------------|--------------------|-------------|-------------------------
 | Tensorflow     |       2015      |         Yes        |     Yes     | 164k     
