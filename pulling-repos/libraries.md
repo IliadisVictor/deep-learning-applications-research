@@ -27,7 +27,7 @@ on google search engine , and Github search engine following the tag `deep learn
 ### Filtered libraries list
 From the 17 libraries initially collected we kept only those that are actively maintained as of 2022 and have a project life of more than 5 years . Also , we removed the bottom outliers in terms of popularity(Github Stars) . 
 
-#### First Filtering Results (Maintaince and project lifespan):
+#### First Filtering Results (maintenance and project lifespan):
 **From 17 initial down to 7** :
 Tensorflow, Keras, MXNET, fast.ai, Brain.js, Pytorch ,BigDL,
 
