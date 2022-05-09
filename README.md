@@ -10,15 +10,14 @@ The objective of this project is to empirically investigate the software enginee
   * What tools are missing?
 
 
-## Scrapper Functionality
-Using python we have created a small tool that by giving as input in the variable url , the page url of the github repository of our selected project dependents (from the dependency graph in the Insights tab) [Tensorflow Example](https://github.com/tensorflow/tensorflow/network/dependents) , we can extract a specific number of dependent github projects above a desired start threshold .
+## Collection algorithms
 
-For the purposes of my research i have also implemented a randomized return of 3 dependent projects from the list that only has repos above the threshhold.
+In the ``pulling-repos\Pulling_Process.md`` you can find the documentation for the collection and filtering steps , and the code used to execute said steps and collection.
 
-**Note** If less repositories are returned than the ones you have asked for in the ``repos_list`` , it means there are not enough repositories above the star threshold . 
+
 
 ## Repositories Used
-In the ``pulling-repos`` files you can find the 10 or less project's we are going to use in the analysis in different files for each different major deep learning library in csv form. We have setted a minimum amount of 100 starts , some projects dont have enough repos above that threshold.
+In the ``pulling-repos\finalrepos.csv``  you can find after the whole collecting and filtering process the repositories i am using.
 
 
 ## Machine Learning Pipeline
@@ -38,3 +37,4 @@ Typical Machine Learning Components
 
 ![Pipeline](/images/automatic-pipeline.png
 )
+

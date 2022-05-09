@@ -18,20 +18,17 @@ on google search engine , and Github search engine following the tag `deep learn
 | BigDL          |       2016      |         Yes        |     Yes     | 3.9k
 | Deeplearning4j |       2014      |         No         |     Yes     | 12.4k
 | CNTK           |       2016      |         No         |     Yes     | 17.1k
-| Tensorflow.js  |       2018      |         Yes         |     Yes     | 16.1k
-| Keras-js       |       2017      |         Yes         |     Yes     | 4.9k
 | Synaptic       |       2015      |         No          |     Yes     | 6.8k
 
 
 
 ### Filtered libraries list
-From the 17 libraries initially collected we kept only those that are actively maintained as of 2022 and have a project life of more than 5 years . Also , we removed the bottom outliers in terms of popularity(Github Stars) . 
+From the 15 libraries initially collected we kept only those that are **actively maintained as of 2022 and have a project life of more than 5 years** . . 
 
-#### First Filtering Results (maintenance and project lifespan):
-**From 17 initial down to 7** :
+#### First Filter on maintenance , only actively developed projects :
+**From 15 initial down to 9** :
+Tensorflow,Keras,Apache MXNET,fast.ai,Brain.js,Pytorch,Flux.jl,PlaidML,BigDL
+
+#### Second filter on project lifespan ( More than 5 years)
+**From 9 down to the final 7**
 Tensorflow, Keras, MXNET, fast.ai, Brain.js, Pytorch ,BigDL,
-
-#### Second Filtering Results
-Removing BigDL due to a vast difference in popularity compared to the other frameworks we intend to use . 
-**From 7 to 6 for a final list of**:
-Tensorflow, Keras, MXNET, fast.ai, Brain.js, Pytorch

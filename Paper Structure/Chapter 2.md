@@ -27,11 +27,10 @@ The date of the extraction of data can heavily effect the return repositories , 
   * Dependent on selected frameworks and libraries
   * Popularity ( Above 100 Stars )
 * Exclusion Criteria 
-  * Does not practice pr's
-  * Documentation unavailable 
-  * Natural Language not English . 
+  * Natural Language
   * Contributing Team Smaller than 3 
   * Last Commit More than a year .  
+  * Repository Type (Toolkits , Frameworks , removed )
 
 ### 2.3.1 Perils Faced Mining Github 
 https://link.springer.com/article/10.1007/s10664-015-9393-5 
@@ -48,11 +47,15 @@ Justification of Criteria ,why have we selected the criteria we did ?
 Registry of the selection process of repositories , documentation of each step , report of results
 
 * Reasoning for not using the official GitHub API 
+  * 1. Does not have an endpoint returning repositories dependent on x library
+  * 2  You can only search for keywords inside x file ex ``tensorflow package.json``
+  * 3. The api returns only the first 1000 results. 
 * Scraper explanation / Documentation 
 * Data stored and processed during the selection and extraction , Where was it stored (Stereo)? 
 
 **Initial Selection**
-The initial search is executed with the only initial criteria being that the project's collected are dependent on the selected library list before quality filtering.
+The initial search is executed with the only initial criteria being that the project's collected are dependent on the selected library list , and that they have above 100 stars, 
+before quality filtering.
 * Explain here the search algorithm (beautifulsoup)
 
 **Quality Evaluation**
@@ -64,3 +67,11 @@ Finally from the repositories that have been filtered for quality we select , th
 **Data extraction**
 Include extraction date , that will be the same as the selection to avoid reproducibility issues 
 * Mining algorithm , downloading the source code of repos .
+
+Because like mentioned before there is no dedicated API call to getting repositories that use
+a specific library we did the following work around
+
+Search considerations [https://docs.github.com/en/search-github/searching-on-github/searching-code]
+For each of the selected libraries we used a github search query ,
+looking 
+

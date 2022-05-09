@@ -1,6 +1,0 @@
-Tensorflow
-Keras
-MXNET
-fast.ai
-Brain.js
-Pytorch
